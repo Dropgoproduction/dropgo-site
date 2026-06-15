@@ -1,20 +1,35 @@
 backend:
   name: git-gateway
   branch: main
-media_folder: "assets/img"
-public_folder: "assets/img"
+
+media_folder: "uploads"
+public_folder: "/uploads"
+
 locale: "fr"
+
 collections:
-  - name: "events"
-    label: "Concerts"
-    folder: "content/events"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Titre", name: "title", widget: "string"}
-      - {label: "Date affichée", name: "date", widget: "string", hint: "Ex : 25 septembre 2026"}
-      - {label: "Lieu", name: "place", widget: "string", default: "Théâtre Lino Ventura, Nice"}
-      - {label: "Statut", name: "status", widget: "select", options: ["à venir", "publié", "complet", "brouillon"]}
-      - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Lien billetterie", name: "ticket", widget: "string", required: false}
-      - {label: "Description", name: "desc", widget: "text"}
+  - name: "site"
+    label: "Site DropGo"
+    files:
+      - file: "content/site.json"
+        label: "Contenu du site"
+        name: "site_content"
+        fields:
+          - {label: "Titre principal", name: "hero_title", widget: "string"}
+          - {label: "Sous-titre", name: "hero_subtitle", widget: "string"}
+          - {label: "Introduction", name: "intro", widget: "text"}
+          - {label: "Email contact", name: "contact_email", widget: "string"}
+          - label: "Concerts"
+            name: "concerts"
+            widget: "list"
+            summary: "{{fields.title}} - {{fields.date}}"
+            fields:
+              - {label: "Titre", name: "title", widget: "string"}
+              - {label: "Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD"}
+              - {label: "Heure", name: "time", widget: "string", required: false}
+              - {label: "Lieu", name: "venue", widget: "string"}
+              - {label: "Catégorie", name: "category", widget: "string", required: false}
+              - {label: "Statut", name: "status", widget: "string", required: false}
+              - {label: "Lien billetterie", name: "ticket_url", widget: "string", required: false}
+              - {label: "Affiche / image", name: "image", widget: "image", required: false}
+              - {label: "Description", name: "description", widget: "text"}

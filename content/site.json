@@ -1,0 +1,18 @@
+{
+  "hero_title": "DropGo Production",
+  "hero_subtitle": "Concerts, scènes vivantes et traversées sonores.",
+  "intro": "DropGo présente une programmation ouverte, populaire et exigeante : musiques du monde, chanson, humour, jazz, créations et grands rendez-vous live.",
+  "contact_email": "dropgoproduction@gmail.com",
+  "concerts": [
+    {"title":"Fatoumata Diawara + Étinsel Maloya","date":"2026-10-02","time":"20:30","venue":"Théâtre Lino Ventura, Nice","category":"Musiques du monde","status":"Billetterie ouverte","ticket_url":"#","image":"","description":"Une soirée vibrante entre l’énergie mandingue de Fatoumata Diawara et les pulsations réunionnaises d’Étinsel Maloya."},
+    {"title":"Jason Brokerss","date":"2026-10-09","time":"20:30","venue":"Théâtre Lino Ventura, Nice","category":"Humour","status":"Billetterie ouverte","ticket_url":"https://my.weezevent.com/jason-brokerss-4","image":"","description":"Stand-up affûté, regard précis et élégance mordante : Jason Brokerss transforme la scène en laboratoire d’observation sociale."},
+    {"title":"Dominique A","date":"2026-10-16","time":"20:30","venue":"Théâtre Lino Ventura, Nice","category":"Chanson","status":"Billetterie ouverte","ticket_url":"https://my.weezevent.com/dominique-a-6","image":"","description":"Une grande voix de la chanson française indépendante, entre intensité poétique, tension rock et précision d’écriture."},
+    {"title":"Diamil Le Shlag","date":"2026-10-23","time":"20:30","venue":"Théâtre Lino Ventura, Nice","category":"Humour","status":"Billetterie ouverte","ticket_url":"#","image":"","description":"Un plateau humour à l’énergie brute, directe, généreuse, entre punchlines et sens du réel."},
+    {"title":"Yaël Naim","date":"2026-11-06","time":"20:30","venue":"Théâtre Lino Ventura, Nice","category":"Pop / chanson","status":"Billetterie ouverte","ticket_url":"#","image":"","description":"Une voix suspendue, un univers intime et ample, entre pop, folk, piano et délicatesse lumineuse."},
+    {"title":"Cyril Benhamou + EYM Trio","date":"2026-11-13","time":"20:30","venue":"Théâtre Lino Ventura, Nice","category":"Jazz actuel","status":"Billetterie ouverte","ticket_url":"#","image":"","description":"Une soirée jazz actuel, voyageuse et électrique, portée par des musiciens libres et inventifs."},
+    {"title":"Lucky Luc + Le Shark","date":"2026-11-20","time":"20:30","venue":"Théâtre Lino Ventura, Nice","category":"Blues / rock","status":"Billetterie ouverte","ticket_url":"#","image":"","description":"Guitares, groove et sueur scénique : une soirée blues-rock sans vernis inutile."},
+    {"title":"Les Tambours du Bronx","date":"2026-12-04","time":"20:30","venue":"Théâtre Lino Ventura, Nice","category":"Percussions industrielles","status":"Billetterie ouverte","ticket_url":"#","image":"","description":"La puissance rythmique à l’état brut : métal, percussions, corps en mouvement et énergie tellurique."},
+    {"title":"Yannick Noah","date":"2026-12-11","time":"20:30","venue":"Théâtre Lino Ventura, Nice","category":"Chanson / reggae","status":"Billetterie ouverte","ticket_url":"#","image":"","description":"Un concert solaire et populaire, porté par la générosité de la scène et l’envie de partager."},
+    {"title":"Guillaume Meurice & Éric Lagadec","date":"2026-12-18","time":"20:30","venue":"Théâtre Lino Ventura, Nice","category":"Humour / science","status":"Billetterie ouverte","ticket_url":"#","image":"","description":"Un rendez-vous drôle et intelligent, quelque part entre satire, science et grand télescope sur nos absurdités."}
+  ]
+}
