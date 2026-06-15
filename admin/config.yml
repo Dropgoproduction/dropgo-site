@@ -1,0 +1,20 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: "assets/img"
+public_folder: "assets/img"
+locale: "fr"
+collections:
+  - name: "events"
+    label: "Concerts"
+    folder: "content/events"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Date affichée", name: "date", widget: "string", hint: "Ex : 25 septembre 2026"}
+      - {label: "Lieu", name: "place", widget: "string", default: "Théâtre Lino Ventura, Nice"}
+      - {label: "Statut", name: "status", widget: "select", options: ["à venir", "publié", "complet", "brouillon"]}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Lien billetterie", name: "ticket", widget: "string", required: false}
+      - {label: "Description", name: "desc", widget: "text"}
