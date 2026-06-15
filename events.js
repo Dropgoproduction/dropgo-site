@@ -1,0 +1,12 @@
+window.DROPGO_EVENTS = [
+  {title:"VERS L'INFINI - Guillaume Meurice et Éric Lagadec", date:"25 septembre 2026", place:"Théâtre Lino Ventura, Nice", status:"complet", image:"assets/img/vers-linfini.jpg", ticket:"#", desc:"Un voyage drôle et vertigineux entre science, humour et cosmos. COMPLET."},
+  {title:"Yaël Naïm", date:"26 septembre 2026", place:"Théâtre Lino Ventura, Nice", status:"à venir", image:"assets/img/yael-naim.jpg", ticket:"#", desc:"Une voix rare, des chansons lumineuses et une présence suspendue."},
+  {title:"Fatoumata Diawara + Etinsel Maloya", date:"9 octobre 2026", place:"Théâtre Lino Ventura, Nice", status:"à venir", image:"assets/img/fatoumata.jpg", ticket:"#", desc:"Une grande soirée entre énergie mandingue, transe, maloya et vibrations solaires."},
+  {title:"Cyril Benhamou + EYM Trio", date:"13 novembre 2026", place:"Théâtre Lino Ventura, Nice", status:"à venir", image:"assets/img/cyril-eym.jpg", ticket:"#", desc:"Jazz actuel, groove, piano et lignes de fuite sonores."},
+  {title:"Lucky Luc + Le Shark", date:"20 novembre 2026", place:"Théâtre Lino Ventura, Nice", status:"brouillon", image:"assets/img/lucky-luc.jpg", ticket:"#", desc:"Blues, énergie live et guitares électriques en embuscade."},
+  {title:"Les Tambours du Bronx", date:"27 novembre 2026", place:"Théâtre Lino Ventura, Nice", status:"publié", image:"assets/img/tambours-bronx.jpg", ticket:"#", desc:"Percussions industrielles, puissance scénique et rituel collectif."},
+  {title:"Yannick Noah — un p’tit tour à deux", date:"4 décembre 2026", place:"Théâtre Lino Ventura, Nice", status:"publié", image:"assets/img/yannick-noah.jpg", ticket:"#", desc:"Un concert intimiste et chaleureux, au plus près des chansons."},
+  {title:"Jason Brokerss", date:"11 décembre 2026", place:"Théâtre Lino Ventura, Nice", status:"à venir", image:"assets/img/jason-brokerss.jpg", ticket:"#", desc:"Stand-up précis, tendre et mordant, avec un sens du détail redoutable."},
+  {title:"Djamil Le Shlag - Exode(s)", date:"19 mars 2027", place:"Théâtre Lino Ventura, Nice", status:"à venir", image:"assets/img/djamil.jpg", ticket:"#", desc:"Humour frontal, social et électrique, dans un seul-en-scène tranchant."},
+  {title:"Dominique A", date:"20 mars 2027", place:"Théâtre Lino Ventura, Nice", status:"à venir", image:"assets/img/dominique-a.jpg", ticket:"#", desc:"Une figure majeure de la chanson française, entre élégance sèche et intensité poétique."}
+];
